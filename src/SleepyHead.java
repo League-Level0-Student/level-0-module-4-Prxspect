@@ -16,7 +16,14 @@ public class SleepyHead {
          * JOptionPane.showConfirmDialog(null, "is it a weekday?", "",
          * JOptionPane.YES_NO_OPTION);
          */
-    
+    int answer=JOptionPane.showConfirmDialog(null, "is it a weekday?", "",JOptionPane.YES_NO_OPTION);
+    System.out.println(answer);
+    if (answer==0) {
+    	isWeekday=true;
+    }
+    else if (answer==1) {
+    	isWeekday=false;
+    }
 
 
         /*
