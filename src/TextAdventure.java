@@ -9,13 +9,13 @@ public static void main(String[] args) {
 	String ans=kb.nextLine();
 	if(ans.equals("take the red pill")) {
 		System.out.println("You now have TELEPORT ability \n");
-		 System.out.println("In front of the table there are two doors that take you to two different worlds \n The door on the left takes you to NARNIA to train to be a master warlock \n The door on the right takes you to THE UNDERWORLD to train to be an overlord with demonic powers \n Blue pill is still in front of you \n Will you (go through left door), (go through right door), or (take the blue pill)? ");
+		 System.out.println("In front of the table there are two doors that take you to two different worlds \n The door on the left takes you to NARNIA to train to be a master warrior \n The door on the right takes you to THE UNDERWORLD to train to be an overlord with demonic powers \n Blue pill is still in front of you \n Will you (go through left door), (go through right door), or (take the blue pill)? ");
 		 ans=kb.nextLine();
 		 if(ans.equals("take the blue pill")) {
 			System.out.println("You are dead. GAME OVER.");
 		 }
 			if(ans.equals("go through right door")) {
-				System.out.println("You are now in NARNIA");
+				System.out.println("You are now in NARNIA, your journey to becoming a master warrior begins! \n You are in an open wasteland and there are three weapons in front of you \n What is your weapon of choice? \n 1) (axe) 2) (sword) 3) (staff) ");
 			}
 			if(ans.equals("go through left door")) {
 				System.out.println("You are now in THE UNDERWORLD");
